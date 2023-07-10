@@ -148,5 +148,19 @@ header{
 /* instagram section end*/
 
 
-
-
+/* footer section start */
+footer{
+    padding:80px 0;
+    background-color: #111010;
+}
+footer h2{
+    color:#FFF;
+}
+footer p{
+    color: #ffffffe6;
+    font-size: 18px;
+}
+footer .lightColor{
+    color:#FFFFFF66;
+}
+/* footer section start */
