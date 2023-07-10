@@ -41,6 +41,9 @@ p{
     width: 500px;
     text-align: center;
 }
+.miniColor{
+    color: #E55473;
+}
 
 
 /* header tag start */
@@ -113,6 +116,23 @@ header{
 }
 /* feature section end*/
 
+/* Hot Deal section start  */
+.hotDealSection{
+    padding:40px 120px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.hotDealSection > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotDealSection .textWrapper{
+    margin: 0;
+    width: 550px;
+}
+/* Hot Deal section end  */
+
 /* instagram section start*/
 .instaSection{
     margin: 0 120px;
@@ -126,7 +146,6 @@ header{
     width: 250px;
 }
 /* instagram section end*/
-
 
 
 
