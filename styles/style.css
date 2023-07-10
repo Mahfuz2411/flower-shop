@@ -113,6 +113,19 @@ header{
 }
 /* feature section end*/
 
+/* instagram section start*/
+.instaSection{
+    margin: 0 120px;
+    padding:40px 0;
+}
+.instagramDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.instagramDiv img{
+    width: 250px;
+}
+/* instagram section end*/
 
 
 
