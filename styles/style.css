@@ -119,7 +119,7 @@ header{
 
 /* Support section start  */
 .supportSection{
-    margin: 0 120px;
+    margin: 0 120px 50px;
     padding:40px 0;
     display: flex;
     justify-content: space-around;
@@ -149,6 +149,7 @@ header{
     width: 550px;
 }
 /* Hot Deal section end  */
+
 
 /* instagram section start*/
 .instaSection{
@@ -202,6 +203,7 @@ form input[type="email"]{
 .bonusSection{
     margin: 50px 120px;
     padding:40px 0;
+    border-radius: 8px;
     background-color:antiquewhite;
     
 }
@@ -215,8 +217,6 @@ form input[type="email"]{
     justify-content: space-evenly;
 }
 /* bonus setion end  */
-
-
 /* main tag end */
 
 
