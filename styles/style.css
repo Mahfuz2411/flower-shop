@@ -71,8 +71,8 @@ header{
 /* feature section start*/
 .featureSection {
     margin: 0 120px;
-    padding:40px 0;
     padding-top: 80px;
+    padding-bottom: 40px;
 }
 .featureDiv{
     display: flex;
@@ -116,6 +116,23 @@ header{
 }
 /* feature section end*/
 
+
+/* Support section start  */
+.supportSection{
+    margin: 0 120px;
+    padding:40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.supportDiv{
+    text-align: center;
+}
+/* Support section end  */
+
+
 /* Hot Deal section start  */
 .hotDealSection{
     padding:40px 120px;
@@ -148,9 +165,42 @@ header{
 /* instagram section end*/
 
 
+/* Input Section Start  */
+.inputSection{
+    margin: 50px 120px;
+    padding:40px 0;
+    background-image: url("../Images/Rectangle9.png");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputSectionDiv{
+    width: 600px;
+}
+
+form{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin:  auto;
+    
+}
+form input[type="email"]{
+    width: 100%;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+/* Input Section End  */
+/* main tag end */
+
+
 /* footer section start */
 footer{
-    padding:80px 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
     background-color: #111010;
 }
 footer h2{
@@ -158,7 +208,7 @@ footer h2{
 }
 footer p{
     color: #ffffffe6;
-    font-size: 18px;
+    font-size: 16px;
 }
 footer .lightColor{
     color:#FFFFFF66;
