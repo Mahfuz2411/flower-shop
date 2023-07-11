@@ -170,6 +170,8 @@ header{
     margin: 50px 120px;
     padding:40px 0;
     background-image: url("../Images/Rectangle9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,6 +196,27 @@ form input[type="email"]{
     border-radius: 8px;
 }
 /* Input Section End  */
+
+
+/* bonus setion start  */
+.bonusSection{
+    margin: 50px 120px;
+    padding:40px 0;
+    background-color:antiquewhite;
+    
+}
+.bonusSection img{
+    width: 50px;
+}
+.bonusDiv{
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* bonus setion end  */
+
+
 /* main tag end */
 
 
